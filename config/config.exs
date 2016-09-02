@@ -32,4 +32,5 @@ config :phoenix, :format_encoders,
 config :plug, :mimes, %{
   "application/vnd.api+json" => ["json-api"]
 }
+
 import_config "#{Mix.env}.exs"
